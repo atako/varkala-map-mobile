@@ -12,8 +12,9 @@ export default class Map extends Component {
       longitudeDelta: 0.0421
     }
   }
-
+  
   render() {
+    console.log(this.props)
     return (
       <MapView
         style={{
