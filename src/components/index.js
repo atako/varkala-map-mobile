@@ -4,6 +4,8 @@ import { Constants } from 'expo'
 import Map from '../containers/Map'
 
 export default class Index extends Component {
+ 
+
   render() {
     return (
       <View style={styles.container}>

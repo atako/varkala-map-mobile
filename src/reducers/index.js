@@ -4,10 +4,10 @@ import * as actions from '../actions'
 
 
 const points = handleActions({
-  [actions.fetchPointSuccess](state, { payload }) {
-    return state
+  [actions.fetchPointsSuccess](state, { payload }) {
+    return payload
   }
-}, [1, 2])
+}, [])
 
 export default combineReducers({
   points
